@@ -1,5 +1,5 @@
 module CCurl [system] {
-  header "/usr/include/x86_64-linux-gnu/curl/curl.h"
+  header "shim.h"
   link "curl"
   export *
 }
